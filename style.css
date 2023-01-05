@@ -1,0 +1,40 @@
+:root {
+  --teal: #cff4ec;
+  --teal-dark: #4d7369
+}
+
+.nav-right {
+  text-align: right;
+}
+
+.nav-right .btn {
+  background-color: var(--teal);
+  border-radius: 0px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.nav-right .btn:hover {
+  background-color: var(--teal-dark);
+  color: #fff;
+}
+
+.intro-left {
+  background-color: var(--teal);
+  text-align: center;
+}
+
+.intro-left h1 {
+  padding: 20% 10% 5% 10%;
+  font-family: 'Libre Baskerville', serif;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.intro-left p {
+  font-size: 1.2rem;
+}
+
+.intro-left a {
+  color: var(--bs-body-color);
+}
