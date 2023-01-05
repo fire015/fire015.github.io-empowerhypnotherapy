@@ -3,6 +3,10 @@
   --teal-dark: #4d7369
 }
 
+.nav-left {
+  padding: 1rem;
+}
+
 .nav-right {
   text-align: right;
 }
@@ -37,4 +41,20 @@
 
 .intro-left a {
   color: var(--bs-body-color);
+}
+
+@media (max-width: 576px) {
+  .nav-left {
+    text-align: center;
+  }
+
+  .nav-right {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+
+  .intro-right {
+    display: none;
+  }
 }
