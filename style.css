@@ -3,6 +3,14 @@
   --teal-dark: #4d7369
 }
 
+h1,
+h2,
+h3 {
+  font-family: 'Libre Baskerville', serif;
+  font-weight: bold;
+  font-style: italic;
+}
+
 .nav-left {
   padding: 1rem;
 }
@@ -31,9 +39,6 @@
 
 .intro-left h1 {
   padding: 20% 10% 5% 10%;
-  font-family: 'Libre Baskerville', serif;
-  font-weight: bold;
-  font-style: italic;
 }
 
 .intro-left p {
@@ -42,6 +47,27 @@
 
 .intro-left a {
   color: var(--bs-body-color);
+}
+
+.help-box {
+  background-color: #eaeae899;
+  margin: 30px 0;
+  padding: 30px;
+  text-align: center;
+}
+
+.help-box h2 {
+  margin-bottom: 20px;
+}
+
+.help-box .row {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: justify;
+}
+
+.help-box .help-right {
+  text-align: right;
 }
 
 /** Mobile overrides **/
@@ -62,5 +88,9 @@
 
   .intro-right {
     display: none;
+  }
+
+  .help-box .help-right {
+    text-align: center;
   }
 }
