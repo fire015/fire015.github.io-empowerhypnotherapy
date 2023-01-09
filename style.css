@@ -52,7 +52,7 @@ h3 {
 
 .help-box {
   background-color: var(--grey);
-  margin-top: 30px;
+  margin-top: 50px;
   padding: 50px;
   text-align: center;
 }
@@ -73,7 +73,7 @@ h3 {
 }
 
 .pricing-box {
-  margin-top: 30px;
+  margin-top: 50px;
   text-align: center;
 }
 
@@ -106,7 +106,7 @@ h3 {
 }
 
 .associations-box {
-  margin-top: 30px;
+  margin-top: 50px;
 }
 
 .associations-box h2 {
@@ -114,7 +114,7 @@ h3 {
 }
 
 .testimonials-box {
-  margin-top: 30px;
+  margin-top: 50px;
   text-align: center;
   border: 1px solid #333;
 }
@@ -131,6 +131,29 @@ h3 {
 
 .testimonials-box .last {
   border-right: 0;
+}
+
+.testimonials-box p {
+  font-style: italic;
+}
+
+.contact-box {
+  margin-top: 50px;
+  background-color: var(--teal);
+  padding: 50px;
+}
+
+.contact-box .row {
+  background-color: #fff;
+}
+
+.contact-box .col-sm {
+  padding: 30px;
+  text-align: center;
+}
+
+.contact-box a {
+  color: var(--bs-nav-link-color);
 }
 
 /** Mobile overrides **/
