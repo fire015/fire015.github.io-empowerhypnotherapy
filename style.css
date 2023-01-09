@@ -105,6 +105,34 @@ h3 {
   padding: 20px;
 }
 
+.associations-box {
+  margin-top: 30px;
+}
+
+.associations-box h2 {
+  margin-top: 60px;
+}
+
+.testimonials-box {
+  margin-top: 30px;
+  text-align: center;
+  border: 1px solid #333;
+}
+
+.testimonials-box h3 {
+  margin: 40px 0 20px 0;
+}
+
+.testimonials-box .col-sm {
+  background: #fff url("img/quote.png") no-repeat center 10px;
+  border-right: 1px solid #333;
+  padding: 60px 40px;
+}
+
+.testimonials-box .last {
+  border-right: 0;
+}
+
 /** Mobile overrides **/
 @media (max-width: 576px) {
   .nav-left {
@@ -132,5 +160,14 @@ h3 {
 
   .help-box .help-right {
     text-align: center;
+  }
+
+  .associations-box h2 {
+    margin-top: 0;
+    text-align: center;
+  }
+
+  .testimonials-box .col-sm {
+    border-right: 0;
   }
 }
