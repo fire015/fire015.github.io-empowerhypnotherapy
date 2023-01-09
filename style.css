@@ -7,7 +7,7 @@
 h1,
 h2,
 h3 {
-  font-family: 'Libre Baskerville', serif;
+  font-family: "Libre Baskerville", serif;
   font-weight: bold;
   font-style: italic;
 }
@@ -86,7 +86,7 @@ h3 {
 }
 
 .pricing-box .price-1 {
-  background-color: #E2F6CD;
+  background-color: #e2f6cd;
 }
 
 .pricing-box .price-2 {
