@@ -54,18 +54,16 @@ h3 {
   background-color: var(--grey);
   margin-top: 50px;
   padding: 50px;
-  text-align: center;
 }
 
 .help-box h2 {
   margin-bottom: 20px;
+  text-align: center;
 }
 
 .help-box .row {
-  max-width: 600px;
+  max-width: 800px;
   margin: 0 auto;
-  text-align: justify;
-  letter-spacing: -0.02em;
 }
 
 .help-box .help-right {
